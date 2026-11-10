@@ -1,6 +1,9 @@
 # Concert Tour Information System
 
-A system for ingesting, processing, and querying concert tour information using advanced AI techniques.
+A question-answering service for concert tour documents built with retrieval-augmented generation (RAG): uploaded
+documents are split into chunks, embedded with sentence-transformers and indexed with FAISS, and a local LLaMA
+model (llama.cpp) answers questions from the most relevant chunks, with optional web search. The interface is a
+Streamlit app.
 
 ## Features
 
@@ -62,8 +65,8 @@ For Windows users, we recommend using WSL (Windows Subsystem for Linux) and Cond
 
 3. **Clone the Repository**:
    ```
-   git clone https://github.com/yourusername/concert_bot.git
-   cd concert_bot
+   git clone https://github.com/pboric/concert-tour-rag-assistant.git
+   cd concert-tour-rag-assistant
    ```
 
 4. **Run the Setup Script**:
@@ -94,8 +97,8 @@ For Windows users, we recommend using WSL (Windows Subsystem for Linux) and Cond
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/yourusername/concert_bot.git
-   cd concert_bot
+   git clone https://github.com/pboric/concert-tour-rag-assistant.git
+   cd concert-tour-rag-assistant
    ```
 
 2. **Create a Virtual Environment**:
